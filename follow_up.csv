@@ -1,4 +1,4 @@
-recruiter_name,recruiter_email,role,location,match_score,email_subject,email_body,sent_date,follow_up_date,response,status
+recruiter_name,recruiter_email,role,location,match_score,email_subject,email_body,duplicate,sent_date,follow_up_date,response,status
 Sarah Johnson,sarah@example.com,Python Developer,"New York, NY",9.73,Application for Python Developer - C2C,"Hi Sarah,
 
 I hope you are doing well.
@@ -15,7 +15,7 @@ Thank you for your time.
 
 Best regards,
 Shalu Yadav
-AI & Data Science Enthusiast",,2026-08-27,Pending,Sent
+AI & Data Science Enthusiast",False,,2026-08-27,Pending,Sent
 John Smith,john@example.com,Data Scientist,"Dallas, TX",2.1,Application for Data Scientist - C2C,"Hi John,
 
 I hope you are doing well.
@@ -32,4 +32,4 @@ Thank you for your time.
 
 Best regards,
 Shalu Yadav
-AI & Data Science Enthusiast",,2026-08-27,Pending,Follow-up
+AI & Data Science Enthusiast",False,,2026-08-27,Pending,Follow-up
