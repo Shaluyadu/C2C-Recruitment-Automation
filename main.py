@@ -20,26 +20,30 @@ def run_script(script_name):
 
 
 def main():
-    print("= - main.py:23" * 60)
-    print("C2C RECRUITMENT AUTOMATION SYSTEM - main.py:24")
-    print("= - main.py:25" * 60)
+
+    print("= - main.py:24" * 60)
+    print("C2C RECRUITMENT AUTOMATION SYSTEM - main.py:25")
+    print("= - main.py:26" * 60)
 
     scripts = [
         "job_search.py",
         "resume_matcher.py",
         "outreach.py",
+        "duplicate_checker.py",
         "follow_up.py",
+        "reply_detector.py",
         "dashboard.py"
     ]
 
     for script in scripts:
+
         if not run_script(script):
-            print("\nWorkflow stopped because an error occurred. - main.py:37")
+            print("\nWorkflow stopped because an error occurred. - main.py:41")
             return
 
-    print("\n - main.py:40" + "=" * 60)
-    print("COMPLETE RECRUITMENT WORKFLOW FINISHED - main.py:41")
-    print("= - main.py:42" * 60)
+    print("\n - main.py:44" + "=" * 60)
+    print("COMPLETE RECRUITMENT WORKFLOW FINISHED - main.py:45")
+    print("= - main.py:46" * 60)
 
 
 if __name__ == "__main__":
